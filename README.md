@@ -12,11 +12,13 @@ The examples were created using Microsoft SQL Server 2016. High level items in t
   - useful for scenarios where there are multiple (test) application databases on one server
   - useful to seperate analysis and verification objects so that they are outside of the application
 2. Stored Proc: Count History
-  - common *count* table for all tables in one application database
+  - common *count* table for all tables in an application database
   - param to allow user to tag a given count, example: before process X, after process Y
   - param to allow user to reset count
   - param to allow user to query history without changing it
   - param to allow user to filter query results
+  - the history table includes all application databases, but the stored proc only exposes one at a time
+    -- advanced users can query the common table to compare multiple databases
 3. Stored Proc: Entity Analysis
   - let user find all tables+columns based on search term
   - used for impact analysis and test planning
