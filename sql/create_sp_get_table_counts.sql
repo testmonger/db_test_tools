@@ -5,7 +5,9 @@ Stored proc to get counts for all tables in an application database.
 Provides user several options to collect a history of counts, 
 and assign names to corresponding to various functional scenarios.
 Uses dynmaic sql to get counts from the target database 
-while maintaining date in the common repository database.
+while maintaining data in the common repository database.
+
+See execute_get_table_counts.sql for more explanation.
 */
 USE [CommonTools];
 GO
