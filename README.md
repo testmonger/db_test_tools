@@ -2,7 +2,7 @@
 Stored Procedures for Testing SQL Databases
 
 This project presents concepts and working examples of useful SQL for database analysis and verification. 
-The main idea is to make useful tools availabe to dev and qa users for all databases on the server, while minimizing the technical expertise requreid to access these tools. And, since the tools are kept in a central location, they do not alter the data or structures inside of the application under test.
+The main idea is to make useful tools availabe to dev and qa users for all databases on the server, while minimizing the technical expertise required to access these tools. And, since the tools are kept in a central location, they do not alter the data or structures inside of the application under test. Likewise, since they are maintained in a centralized database, the tools do not have to be rebuilt everytime an application is restored or replaced.
 
 The examples were created using Microsoft SQL Server 2016. High level items in this project include:
 
