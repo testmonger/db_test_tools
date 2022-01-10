@@ -1,5 +1,5 @@
 # db_test_tools
-A Common Tool Shed for SQL Databases
+A QA Tool Shed for SQL Databases
 
 This project is about a common database on the server to provide analysis and testing tools for all databases. It uses stored procedures with dynamic SQL to make the tools more accessible to all users.
 
